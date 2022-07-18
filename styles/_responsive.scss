@@ -1,0 +1,129 @@
+@media screen and(max-width: 850px) {
+    .toggle{
+        display: block;
+        position: relative;
+        top: 10px;
+        right: 25px;
+    }
+    .logo{
+        position: relative;
+        left: 20px;
+    }
+    .close{
+        display: none;
+    }
+    .inside{
+        flex-wrap: wrap;
+        width: 100%;
+     
+    }
+    .nav{
+        display: none;
+        height: 50vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .active{
+        display: flex;
+        z-index: 1000;
+         }
+    .activee{
+        background-image: url(../images/mobile/A_black_image.jpg.webp) !important;
+        z-index: 1000;
+    }
+    .actopen{
+        display: none;
+    }
+    .actclo{
+        display: block;
+    }
+    .ach{
+        display: none;
+    }
+    .nav a{
+        margin: auto;
+       text-transform: uppercase;
+        color: #fff; 
+    }
+    .nav a{
+        margin: 10px 10px;
+    }
+    .big{
+        margin-top: 40px;
+        width: 80%;
+    }
+    .big h1{
+      font-size: 35px;
+      letter-spacing: 5px;
+    }
+    .inside-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .word {
+ 
+        // margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px !important;
+        margin-left: 0px !important;
+        background-color: #fff;
+      
+    }
+    .s{
+        text-align: center;
+        margin: auto;
+    }
+    .t{
+        display: none;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+     
+    } 
+    .inside-foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons, .log, .res{
+        display: flex;
+        justify-content: center;
+    }
+    .end-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+
+    }
+    .end-nav span{
+        text-align: center;
+    }
+  .res{
+    margin-bottom: 20px;
+  }
+    
+}
+@media screen and(max-width: 420px) {
+.nav-container{
+    background-image: url(../images/mobile/image-hero.jpg);
+}
+.bigtext {
+    width: 100%;
+    margin: auto;
+}
+.bigtext  h1{
+    width: 100%;
+    text-align: center;
+    font-size: 30px !important;
+}
+
+.photo img{
+  max-width: 100%;
+}
+.smalltext p{
+    text-align: center;
+}
+}
